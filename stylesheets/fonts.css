@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Calibri;
+  src: url('../fonts/calibril.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Calibri;
+  src: url('../fonts/calibrili.ttf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Calibri;
+  src: url('../fonts/Calibri.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Bebas';
+  src: url('../fonts/bebas___-webfont.eot');
+  src: url('../fonts/bebas___-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/bebas___-webfont.woff2') format('woff2'),
+       url('../fonts/bebas___-webfont.woff') format('woff'),
+       url('../fonts/bebas___-webfont.svg#bebasregular') format('svg'),
+       url('../fonts/BEBAS.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'StMarie';
+  src: url('../fonts/stmarie-thin-webfont.eot');
+  src: url('../fonts/stmarie-thin-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/stmarie-thin-webfont.woff') format('woff'),
+       url('../fonts/stmarie-thin-webfont.svg#bebasregular') format('svg'),
+       url('../fonts/stmarie-thin-webfont.ttf') format('ttf'),
+       url(../fonts/StMarie-Thin.otf) format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  float: right;
+  margin: 14px 0 0 50px;
+  text-align: right;
+  width: 115px;
+}
+
+h1 span {
+  font-family: 'Calibri', sans-serif;
+  color: #fb9c06;
+  font-size: 39px;
+  display: inline-block;
+}
+
+h1 span:last-child {
+  font-family: 'Bebas', 'Calibri', sans-serif;
+  color: #6e6d6b;
+  font-size: 38px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+h3 {
+  font-size: 37px;
+  color: #fb9c06;
+  background-color: #4f4f4f;
+  opacity: 0.7;
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 66px;
+  text-transform: uppercase;
+  font-family: 'Bebas', 'Calibri', sans-serif;
+  position: absolute;
+  left: 21px;
+  top: 130px;
+  padding: 0 8px 0 27px;
+  letter-spacing: 1px;
+}
+
+h3:last-child {
+  left: 12px;
+  top: 224px;
+  background: #ffaf12;
+  color: #6e6d6b;
+  line-height: 70px;
+  padding: 0 13px 5px 27px;
+}

@@ -1,0 +1,12 @@
+.block-with-image {
+  height: 408px;
+  border-top: 4px solid #fcba50;
+  border-bottom: 4px solid #fcba50;
+  background: url(../images/orange.png) no-repeat;
+  background-size: cover;
+}
+
+.block-with-image .wrapper {
+  position: relative;
+  height: 100%;
+}

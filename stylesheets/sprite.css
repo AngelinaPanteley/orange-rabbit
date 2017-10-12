@@ -1,0 +1,35 @@
+.sprite-icon {
+  background-image: url('../images/sprite.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.home-icon {
+  width: 55px;
+  height: 47px;
+  background-position: -10px -10px;
+}
+
+.about-icon {
+  width: 23px;
+  height: 44px;
+  background-position: -10px -132px;
+}
+
+.work-icon {
+  width: 43px;
+  height: 43px;
+  background-position: -85px -10px;
+}
+
+.blog-icon {
+  width: 40px;
+  height: 40px;
+  background-position: -148px -10px;
+}
+
+.contact-icon {
+  width: 50px;
+  height: 35px;
+  background-position: -10px -77px;
+}

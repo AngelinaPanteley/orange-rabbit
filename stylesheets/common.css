@@ -1,0 +1,26 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+html {
+  font-size: 10px;
+}
+
+.content {
+  width: 1600px;
+  margin: 0 auto;
+  padding-top: 128px;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
