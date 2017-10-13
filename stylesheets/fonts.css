@@ -63,7 +63,7 @@ h1 span:last-child {
   margin-top: 5px;
 }
 
-h3 {
+h2 {
   font-size: 37px;
   color: #fb9c06;
   background-color: #4f4f4f;
@@ -80,7 +80,7 @@ h3 {
   letter-spacing: 1px;
 }
 
-h3:last-child {
+h2:last-child {
   left: 12px;
   top: 224px;
   background: #ffaf12;
@@ -88,3 +88,29 @@ h3:last-child {
   line-height: 70px;
   padding: 0 13px 5px 27px;
 }
+
+h3 {
+  font-family: 'StMarie', 'Calibri', serif;
+  color: #ff9c00;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+}
+
+h3 span {
+  position: relative;
+  display: inline-block;
+}
+
+h3 span:after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background: #ff9c00;
+  left: 0;
+  border-top: 1px solid #ffd1a3;
+  border-bottom: 1px solid #ffb867;
+}
+

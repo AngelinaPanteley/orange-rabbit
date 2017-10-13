@@ -18,9 +18,14 @@ html {
   width: 1600px;
   margin: 0 auto;
   padding-top: 128px;
+  min-height: calc(100vh - 84px);
 }
 
 .wrapper {
   width: 1200px;
   margin: 0 auto;
+}
+
+figure {
+  margin: 0px;
 }
