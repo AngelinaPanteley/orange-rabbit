@@ -12,44 +12,73 @@
 }
 
 .description-block {
-  box-shadow: 0 1px #f2f2f2, 0 1px #f7f7f7, 0 1px #fbfbfb;
+  box-shadow: 0 1px #f2f2f2, 0 2px #f7f7f7, 0 3px #fbfbfb;
 }
 
 .text-column {
   width: 25%;
   float: left;
-  font-family: 'Calibri', sans-serif;
   color: #000;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 600;
-  line-height: 23px;
+  line-height: 2.3rem;
   padding: 30px 20px 25px 22px;
+}
+
+.text-column p {
+  max-height: 138px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .read-more-link {
   float: right;
-  font-family: 'Calibri', sans-serif;
   font-style: italic;
   font-weight: 600;
   color: #ffb83f;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.7rem;
+  transition: color .2s;
+}
+
+.read-more-link:hover {
+  color: #ffa100;
+  transition: color .2s;
 }
 
 .team-block {
-  padding-top: 16px;
+  padding-top: 20px;
 }
 
 .team-item {
   float: left;
   width: 312px;
+  padding: 40px 0 0 0;
+  margin-right: 132px;
+}
+
+.team-item:nth-child(3n) {
+  margin-right: 0px;
 }
 
 .team-item figcaption {
-  font-size: 22px;
-  font-family: 'Calibri', sans-serif;
+  font-size: 2.2rem;
   color: #fb9c06;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 23px;
+  line-height: 2.3rem;
+}
 
+.team-item__link {
+  font-size: 2.2rem;
+  color: #fb9c06;
+  text-decoration: none;
+}
+
+.team-item__link:hover {
+  text-decoration: underline;
 }
 
 .team-item__name {
@@ -57,11 +86,19 @@
 }
 
 .team-item__photo {
-  background-image: url(../images/horse.jpg);
   width: 312px;
   height: 312px;
   border-radius: 50%;
   border: 9px solid #ffb540;
-  background-position: center center;
-  background-size: cover;
+  margin: 32px 0 19px 0;
 }
+
+.team-item__description {
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  padding: 0 23px 0 31px;
+  color: #333;
+  max-height: 92px;
+  overflow: hidden;
+}
+

@@ -1,0 +1,79 @@
+.send-block {
+  padding-top: 35px;
+  padding-bottom: 52px;
+}
+
+.send-form {
+  padding: 68px 0 0 0;
+}
+
+.send-form fieldset {
+  padding: 0px;
+  margin-bottom: 37px;
+}
+
+.send-form label {
+  font-size: 2.4rem;
+  display: inline-block;
+  float: right;
+  width: 133px;
+  font-family: 'STMarie', 'Calibri', serif;
+  color: #fb9c06;
+  margin-top: 3px;
+}
+
+.send-form input,
+.send-form textarea {
+  width: calc(100% - 133px);
+  float: right;
+  background: #f8f7f6;
+  border: none;
+  outline: none;
+  border-top: 2px solid #d2d0cf;
+  border-left: 5px solid #d2d0cf;
+  height: 33px;
+  font-size: 2.0rem;
+  color: #333;
+  padding: 3px 10px;
+  font-family: 'Calibri', sans-serif;
+}
+
+.send-form input:focus,
+.send-form textarea:focus {
+  border-top: 2px solid #fb9c06;
+  border-left: 5px solid #fb9c06;
+}
+
+.send-form input:focus + label,
+.send-form textarea:focus + label {
+  font-weight: 600;
+}
+
+.send-form textarea {
+  resize: none;
+  height: 90px;
+}
+
+.send-form input[type="submit"] {
+  font-family: 'STMarie', 'Calibri', serif;
+  width: 176px;
+  height: 46px;
+  background: #fb9c06;
+  border: 1px solid #fcb94f;
+  color: #fff;
+  font-size: 3.0rem;
+  line-height: 3.2rem;
+  box-shadow: 0 3px #cc830f;
+  float: right;
+  margin-right: 32px;
+  margin-top: -13px;
+  transition: all .1s;
+  cursor: pointer;
+}
+
+input[type="submit"]:active {
+  box-shadow: none;
+  margin-top: -10px;
+  margin-bottom: -3px;
+  transition: all .1s;
+}

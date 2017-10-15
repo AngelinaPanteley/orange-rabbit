@@ -1,11 +1,11 @@
 .footer {
   height: 69px;
-  line-height: 69px;
+  line-height: 6.9rem;
   background: #fb9c06;
   text-align: center;
   color: #fff;
   font-family: 'StMarie', 'Calibri', serif;
-  font-size: 33px;
+  font-size: 3.3rem;
   margin-bottom: 11px;
   border-bottom: 1px solid #e8920a;
   box-shadow: 0 3px #cc830f;

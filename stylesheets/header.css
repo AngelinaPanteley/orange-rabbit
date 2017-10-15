@@ -2,8 +2,11 @@
   height: 128px;
   position: fixed;
   top: 0px;
-  margin: 0 auto;
-  width: 1600px;
+  width: 100%;
+  background: #fff;
+  z-index: 10;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .logo-box {
@@ -31,6 +34,10 @@
   line-height: 2.6rem;
   font-weight: 600;
   margin-top: 12px;
+}
+
+.navigation-item:hover .navigation-item__title {
+  color: #fb9c06;
 }
 
 .home-link {

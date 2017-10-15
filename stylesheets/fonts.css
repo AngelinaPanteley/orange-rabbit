@@ -51,26 +51,26 @@ h1 {
 h1 span {
   font-family: 'Calibri', sans-serif;
   color: #fb9c06;
-  font-size: 39px;
+  font-size: 3.9rem;
   display: inline-block;
 }
 
 h1 span:last-child {
   font-family: 'Bebas', 'Calibri', sans-serif;
   color: #6e6d6b;
-  font-size: 38px;
+  font-size: 3.8rem;
   text-transform: uppercase;
   margin-top: 5px;
 }
 
 h2 {
-  font-size: 37px;
+  font-size: 3.7rem;
   color: #fb9c06;
   background-color: #4f4f4f;
   opacity: 0.7;
   display: inline-block;
   padding: 0 10px;
-  line-height: 66px;
+  line-height: 6.6rem;
   text-transform: uppercase;
   font-family: 'Bebas', 'Calibri', sans-serif;
   position: absolute;
@@ -85,15 +85,15 @@ h2:last-child {
   top: 224px;
   background: #ffaf12;
   color: #6e6d6b;
-  line-height: 70px;
+  line-height: 7.0rem;
   padding: 0 13px 5px 27px;
 }
 
 h3 {
   font-family: 'StMarie', 'Calibri', serif;
   color: #ff9c00;
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 4.0rem;
+  line-height: 5.0rem;
   text-align: center;
 }
 

@@ -1,35 +1,55 @@
 .sprite-icon {
-  background-image: url('../images/sprite.png');
+  background-image: url(../images/spritesheet.png);
   background-repeat: no-repeat;
   display: inline-block;
-}
-
-.home-icon {
-  width: 55px;
-  height: 47px;
-  background-position: -10px -10px;
 }
 
 .about-icon {
   width: 23px;
   height: 44px;
-  background-position: -10px -132px;
+  background-position: -5px -5px;
 }
 
-.work-icon {
-  width: 43px;
-  height: 43px;
-  background-position: -85px -10px;
+.about-link:hover .about-icon {
+  background-position: -38px -5px;
 }
 
 .blog-icon {
   width: 40px;
   height: 40px;
-  background-position: -148px -10px;
+  background-position: -71px -5px;
+}
+
+.blog-link:hover .blog-icon {
+  background-position: -121px -5px;
 }
 
 .contact-icon {
   width: 50px;
   height: 35px;
-  background-position: -10px -77px;
+  background-position: -171px -5px;
+}
+
+.contact-link:hover .contact-icon {
+  background-position: -231px -5px;
+}
+
+.home-icon {
+  width: 55px;
+  height: 47px;
+  background-position: -291px -5px;
+}
+
+.home-link:hover .home-icon {
+  background-position: -356px -5px;
+}
+
+.work-icon {
+  width: 43px;
+  height: 43px;
+  background-position: -421px -5px;
+}
+
+.work-link:hover .work-icon {
+  background-position: -474px -5px;
 }

@@ -12,11 +12,11 @@
 
 html {
   font-size: 10px;
+  font-family: 'Calibri', sans-serif;
+  min-width: 1200px;
 }
 
 .content {
-  width: 1600px;
-  margin: 0 auto;
   padding-top: 128px;
   min-height: calc(100vh - 84px);
 }
