@@ -47,13 +47,13 @@
 }
 
 .team-block {
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 .team-item {
   float: left;
   width: 312px;
-  padding: 40px 0 0 0;
+  padding-top: 42px;
   margin-right: 132px;
 }
 
@@ -90,7 +90,7 @@
   height: 312px;
   border-radius: 50%;
   border: 9px solid #ffb540;
-  margin: 32px 0 19px 0;
+  margin: 28px 0 19px 0;
 }
 
 .team-item__description {
